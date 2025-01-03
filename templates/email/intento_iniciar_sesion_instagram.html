@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notificación de intento de inicio de sesión - Instagram</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 40px auto;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .message {
+            font-size: 16px;
+            color: #333;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .message p {
+            margin: 10px 0;
+        }
+        .button {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .button a {
+            background-color: #0095f6;
+            color: #ffffff;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 5px;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
+        .button a:hover {
+            background-color: #007bb5;
+        }
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #888;
+            margin-top: 40px;
+        }
+        .footer a {
+            color: #0095f6;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .footer a:hover {
+            color: #007bb5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+        </div>
+        <div class="message">
+            <p>Hola,</p>
+            <p>Hemos detectado un intento de inicio de sesión en tu cuenta de Instagram desde un dispositivo desconocido.</p>
+            <p>IP: <strong>{{IP}}</strong>.</p>
+            <p>Hora: <strong>{{TIME}}</strong></p>
+            <p>Lugar: <strong>Rosario, Santa Fe, Argentina</strong></p> 
+            <p>Si no fuiste tú, por favor <a href="{{URL}}" target="_blank"> Cambia tu contraseña aquí</a> lo antes posible para proteger tu cuenta.</p>
+            <p>Si reconoces este intento, puedes ignorar este mensaje.</p>
+            <div class="footer">
+                <p>Este mensaje fue enviado por Instagram. Si tienes preguntas o dudas, visita nuestro <a href="https://www.instagram.com/help" target="_blank">Centro de ayuda</a>.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,224 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: Helvetica;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #FAFAFA;
+}
+
+#mainContainer{
+  margin-top: 30px;
+  display: flex;
+}
+
+#bannerContainer, #inputContainer{
+  flex: 1 1 0;
+  width: 50%;
+}
+
+#bannerContainer{
+  text-align: right;
+}
+
+#bannerContainer img{
+  width: 100%;
+  margin-right: 15px;
+  margin-top: 25px;
+  max-width: 380px;
+}
+
+#inputContainer{
+  
+  text-align: center;
+}
+
+#instagramLogo{
+  width: 175px;
+  height: 51px;
+  margin: 30px auto 12px
+}
+
+#loginContainer{
+  background-color: #FFF;
+  border: 1px solid #dbdbdb;
+  width: 350px;
+  margin-top: 30px;
+}
+
+#loginForm{
+  margin-top: 20px;
+}
+
+#loginForm input{
+  display: block;
+  background-color: #FAFAFA;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  width: 268px;
+  margin: 5px auto;
+  height: 40px;
+  padding: 12px 9px;
+  font-size: 12px;
+}
+
+#loginForm input[type="submit"]{
+  background-color:#b2dffc;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 13px;
+  width: 268px;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  height: 30px;
+  margin-top: 15px;
+  padding: 0;
+}
+
+.separator{
+  position: relative;
+}
+
+.separator span{
+  position: absolute;
+  background-color: #FFF;
+  color: #BBB;
+  font-size: 14px;
+  top: -6px;
+  width: 50px;
+  margin-left: -25px;
+}
+
+.line{
+  border-top: 1px solid #DBDBDB;
+  width: 268px;
+  margin: 25px auto 35px;
+}
+
+.logFb{
+  display: block;
+}
+
+.forgot{
+  display: block;
+}
+
+#fbLogin a{
+  text-decoration: none;
+  color: #385185;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+#fbLogin{
+  margin-bottom: 25px;
+}
+
+#fbLogin img{
+  width: 15px;
+}
+
+#forgot{
+  color: #373799;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+#forgotPassword{
+  margin-bottom: 20px;
+}
+
+#signupContainer{
+  width: 350px;
+  height: 68px;
+  margin-top: 10px;
+  background-color: #FFF;
+  border: 1px solid #dbdbdb;
+  font-size: 14px;
+  padding: 25px;
+}
+
+#signupContainer p{
+  color: #262626;
+}
+
+#signupContainer a{
+  text-decoration: none;
+  color: #4a95f6;
+  font-weight: bold;
+}
+
+#downloadContainer{
+  width: 350px;
+  margin-top: 20px;
+}
+
+#downloadContainer p{
+  margin: 15px 0;
+  font-size: 13px;
+}
+
+#downloadContainer img{
+  width: 136px;
+  height: 41.61px;
+}
+
+footer{
+  width: 1000px;
+  margin: 50px auto;
+  p{
+    margin-top: 10px;
+    text-decoration: none;
+    color: #8e8e8e;
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+#links{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  li{
+    margin-right: 10px;
+  }
+  a{
+    text-decoration: none;
+    color: #8e8e8e;
+    font-size: 12px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 450px){
+  body{
+    background-color: #FFF;
+  }
+  #bannerContainer{
+    display: none;
+  }
+  #mainContainer, #inputContainer{
+    margin-top: 0;
+  }
+
+  #loginContainer{
+    margin-top: 60px;
+  }
+
+  #inputContainer, #loginContainer, #signupContainer, #downloadContainer{
+    width: 100%;
+    border:none;
+  }
+
+  footer{
+    width: 90%;
+    margin-top: 200px;
+  }
+
+  #links{
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+}
