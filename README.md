@@ -21,7 +21,7 @@ Este repositorio contiene una herramienta de phishing que permite realizar ataqu
 1. **Clona el repositorio**:
 
    ```bash
-   git clone https://github.com/tu_usuario/phishing-toolkit.git
+   git clone https://github.com/simoncherry9/phistool.git
    cd phistool
    ```
 
