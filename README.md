@@ -19,6 +19,7 @@ Phistool es una herramienta de **phishing** que te permite realizar ataques de *
 - Python 3.x
 - Cuenta en [ngrok](https://ngrok.com/) para exponer servidores locales.
 - Dependencias de Python, que se instalan automáticamente mediante `setup.py`.
+- Cuenta de Gmail configurada con una contraseña de aplicaciones para poder enviar correos electrónicos.
 
 ---
 
