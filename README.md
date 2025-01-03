@@ -1,3 +1,5 @@
+<img src="https://github.com/user-attachments/assets/7792e1e3-39d0-428e-8eef-faca60fa5c0c" alt="Imagen de Phistool">
+
 # phistool
 
 Este repositorio contiene una herramienta de phishing que permite realizar ataques tanto por **correo electrónico** como por **URL maliciosa**. La herramienta también automatiza la configuración de **ngrok** para exponer servidores locales de forma sencilla.
